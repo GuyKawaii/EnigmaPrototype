@@ -46,6 +46,5 @@ public class EnigmaPrototype {
 		e.printTest('Ø');
 		e.printTest('Å');
 		
-		// new line test
 	}
 }
