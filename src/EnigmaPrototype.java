@@ -4,14 +4,14 @@ public class EnigmaPrototype {
 		// converts range [' ', A-Å] to range [0-29]
 		if (c == ' ') {
 			return 0;
-		} else if (65 <= c && c <= 91) {
+		} else if (65 <= c && c <= 90) {
 			return (int) c - 64;
 		} else if (c == 'Æ') {
-			return (int) c - 171;
+			return 27;
 		} else if (c == 'Ø') {
-			return (int) c - 188;
+			return 28;
 		} else { // (c == 'Å')
-			return (int) c - 168;
+			return 29;
 		}
 	}
 	
